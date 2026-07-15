@@ -1,0 +1,24 @@
+# CubeIDE build files
+Debug/
+Release/
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+
+# IDE settings 
+.project
+.cproject
+.mxproject
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# HAL and CMSIS
+Drivers/STM32F1xx_HAL_Driver/Src/
+Drivers/STM32F1xx_HAL_Driver/Inc/
+Drivers/CMSIS/
