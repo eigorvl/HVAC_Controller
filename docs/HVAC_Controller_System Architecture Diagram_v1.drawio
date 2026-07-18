@@ -4,6 +4,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-1" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;PC Simulator&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="100" y="100" width="290" height="220" as="geometry">
+            <mxRectangle x="720" y="110" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;python&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;- Simulated temperature sensors&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Modbus slave emulator&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Read state Controller&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- Fault injection&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="Uo1UA7SMBnwkSBYMVh-E-1" vertex="1">
+          <mxGeometry x="20" y="20" width="210" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="Uo1UA7SMBnwkSBYMVh-E-3" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;STM32 Controller&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="400" y="470" width="890" height="580" as="geometry">
             <mxRectangle x="860" y="440" width="140" height="30" as="alternateBounds" />
@@ -81,12 +89,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#009900;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Uo1UA7SMBnwkSBYMVh-E-3" edge="1">
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#009900;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Uo1UA7SMBnwkSBYMVh-E-3" target="Uo1UA7SMBnwkSBYMVh-E-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="330" as="sourcePoint" />
-            <mxPoint x="585" y="162" as="targetPoint" />
+            <mxPoint x="420" y="328" as="sourcePoint" />
+            <mxPoint x="431" y="170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="420" y="162" />
+              <mxPoint x="420" y="160" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -113,13 +121,24 @@
         <mxCell id="Uo1UA7SMBnwkSBYMVh-E-25" value="SPI" style="rounded=0;whiteSpace=wrap;html=1;" parent="Uo1UA7SMBnwkSBYMVh-E-3" vertex="1">
           <mxGeometry x="794" y="130" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#009900;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Uo1UA7SMBnwkSBYMVh-E-44" target="Uo1UA7SMBnwkSBYMVh-E-28" edge="1">
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-26" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;PC Web Monitoring&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="550" y="100" width="240" height="220" as="geometry">
+            <mxRectangle x="720" y="110" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Streamlit&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;- Scheme&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;- Charts&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;- Alarms&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="Uo1UA7SMBnwkSBYMVh-E-26" vertex="1">
+          <mxGeometry x="20" y="20" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-28" value="Slave" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#009900;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="Uo1UA7SMBnwkSBYMVh-E-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="140" y="697" />
             </Array>
-            <mxPoint x="140" y="830" as="sourcePoint" />
-            <mxPoint x="140" y="320" as="targetPoint" />
+            <mxPoint x="140" y="320" as="sourcePoint" />
+            <mxPoint x="140" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Uo1UA7SMBnwkSBYMVh-E-30" value="Modbus RTU&lt;div&gt;RS485&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Uo1UA7SMBnwkSBYMVh-E-29" vertex="1" connectable="0">
@@ -127,10 +146,13 @@
             <mxPoint x="1" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-32" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#009900;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" target="Uo1UA7SMBnwkSBYMVh-E-45">
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-31" value="Master" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-32" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#009900;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Uo1UA7SMBnwkSBYMVh-E-45" target="Uo1UA7SMBnwkSBYMVh-E-31" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="320" as="sourcePoint" />
-            <mxPoint x="270" y="620" as="targetPoint" />
+            <mxPoint x="270" y="620" as="sourcePoint" />
+            <mxPoint x="269.5" y="340" as="targetPoint" />
             <Array as="points">
               <mxPoint x="270" y="620" />
             </Array>
@@ -141,6 +163,17 @@
         </mxCell>
         <mxCell id="Uo1UA7SMBnwkSBYMVh-E-34" value="Modbus RTU&lt;div&gt;RS485&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Uo1UA7SMBnwkSBYMVh-E-32" vertex="1" connectable="0">
           <mxGeometry x="-0.1143" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#009900;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="190" as="sourcePoint" />
+            <mxPoint x="540" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-36" value="socket&amp;nbsp;&lt;div&gt;json&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Uo1UA7SMBnwkSBYMVh-E-35" vertex="1" connectable="0">
+          <mxGeometry x="0.0667" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -171,10 +204,10 @@
         <mxCell id="Uo1UA7SMBnwkSBYMVh-E-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#009900;" parent="1" source="Uo1UA7SMBnwkSBYMVh-E-44" target="Uo1UA7SMBnwkSBYMVh-E-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-44" value="&lt;div&gt;RS485&lt;/div&gt;&lt;div&gt;Slave&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-44" value="UART2&lt;div&gt;Master&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="300" y="667" width="75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-45" value="&lt;div&gt;&lt;div&gt;RS485&lt;/div&gt;&lt;div&gt;Master&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-45" value="UART1&lt;div&gt;Slave&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="300" y="590" width="75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uo1UA7SMBnwkSBYMVh-E-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#009900;" parent="1" source="Uo1UA7SMBnwkSBYMVh-E-7" target="Uo1UA7SMBnwkSBYMVh-E-45" edge="1">
@@ -192,63 +225,17 @@
         <mxCell id="Uo1UA7SMBnwkSBYMVh-E-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#009900;" parent="1" source="Uo1UA7SMBnwkSBYMVh-E-25" target="Uo1UA7SMBnwkSBYMVh-E-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-51" value="HVAC5_model" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-52" value="Monitor_HVAC5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="560" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="Uo1UA7SMBnwkSBYMVh-E-53" value="HVAC_controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="440" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Uo1UA7SMBnwkSBYMVh-E-54" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;System Architecture Diagram&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="580" y="10" width="610" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rSUva2O_YAL7ICXHemX0-1" value="Monitoring" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="150" width="120" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="Uo1UA7SMBnwkSBYMVh-E-28" value="Master" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rSUva2O_YAL7ICXHemX0-1" vertex="1">
-          <mxGeometry x="30" y="100" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rSUva2O_YAL7ICXHemX0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#009900;" parent="1" source="rSUva2O_YAL7ICXHemX0-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="285" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rSUva2O_YAL7ICXHemX0-2" value="T1&lt;div&gt;Modbus RTU&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="220" width="70" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rSUva2O_YAL7ICXHemX0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#009900;" parent="1" source="rSUva2O_YAL7ICXHemX0-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="375" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rSUva2O_YAL7ICXHemX0-3" value="T2&lt;div&gt;Modbus RTU&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="220" width="70" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rSUva2O_YAL7ICXHemX0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#009900;" parent="1" source="rSUva2O_YAL7ICXHemX0-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="465" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rSUva2O_YAL7ICXHemX0-4" value="T3&lt;div&gt;Modbus RTU&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="220" width="70" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rSUva2O_YAL7ICXHemX0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#009900;" parent="1" source="rSUva2O_YAL7ICXHemX0-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="555" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rSUva2O_YAL7ICXHemX0-5" value="T4&lt;div&gt;Modbus RTU&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="220" width="70" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rSUva2O_YAL7ICXHemX0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#009900;" parent="1" source="rSUva2O_YAL7ICXHemX0-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="645" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rSUva2O_YAL7ICXHemX0-6" value="T5&lt;div&gt;Modbus RTU&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="610" y="220" width="70" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rSUva2O_YAL7ICXHemX0-7" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#009900;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="320" as="sourcePoint" />
-            <mxPoint x="650" y="320" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -22,3 +22,6 @@ build/
 Drivers/STM32F1xx_HAL_Driver/Src/
 Drivers/STM32F1xx_HAL_Driver/Inc/
 Drivers/CMSIS/
+
+#DRAWIO
+*.bkp
