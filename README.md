@@ -20,4 +20,4 @@
 
 ## Архетектура системы
 
-![Архитектура системы](docs/2_System_Architecture_Diagram.png)
+![Архитектура системы](docs/HVAC_Controller_System_Architecture_Diagram.png)
