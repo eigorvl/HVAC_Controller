@@ -21,3 +21,19 @@
 ## Архетектура системы
 
 ![Архитектура системы](docs/HVAC_Controller_System_Architecture_Diagram.png)
+
+## Архетектура ПО:
+1. FreeRTOS
+   1. Задачи:
+      - Start_ST7789_Task - работа с дисплеем ST7789 RGB 240x240
+      - Start_EC11- работа с энкодером EC-11
+      - StartAlgoritm - алгоритм системы управления
+      - StartUSART_1- работа с портом UART1 Slave
+      - StartUSART_2- работа с портом UART2 Master
+
+   2. Очереди:
+      - queueTFT- очередь сообщений в дисплей
+      - queueTimer - очередь статусов в экран от таймера
+
+   3. Таймер:
+      - UpdateValueTimer_Fun - тймер обновлений экрана
